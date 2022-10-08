@@ -3,7 +3,9 @@ Vue.createApp({
         return {
             profiles: [
                 {
-                    username: 'marisahonkai', name: 'Honkai News Network', desc: 'Honkai Impact 3rd and Honkai Star Rail CN News, Translation and Guides', created: 'July 2019', following: 2181, follower: 170
+                    username: 'parys410', name: 'Ary Setiyawan',
+                    desc: 'Have a Nice Day', location: 'Badung, Bali, Indonesia',
+                    created: 'July 2010', following: 305, follower: 170
                 }
             ]
         }
@@ -16,6 +18,7 @@ Vue.createApp({
             name: { type: String },
             desc: { type: String },
             created: { type: String },
+            location: { type: String },
             following: { type: Number },
             follower: { type: Number }
         }

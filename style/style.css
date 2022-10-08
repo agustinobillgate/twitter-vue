@@ -42,6 +42,7 @@
 
 .user-profile h3 {
     font-size: 1.5rem;
+    margin: 0;
 }
 
 .user-profile p {
@@ -72,11 +73,24 @@
     margin-bottom: 10px;
 }
 
+.user-desc p {
+    margin-bottom: 5px;
+}
+
+.sub {
+    display: flex;
+    color: #5b7083;
+}
+
+.sub p {
+    margin-right: 10px;
+}
+
 .user-data {
     display: flex;
     color: #5b7083;
 }
 
-.user-data div {
+.user-data p {
     margin-right: 10px;
 }
