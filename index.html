@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div id="app" class="container">
+        <twitter-profile v-for="profile in profiles" v-bind="profile"></twitter-profile>
+    </div>
+    <script type="text/x-template" id="twitter-profile-card">
+        <div class="card">
+            <img class="card-img-top img-banner" src="assets/600x200.jpeg" alt="">
+            <div class="profile">
+                <div class="main-profile">
+                    <div class="user-profile">
+                        <img src="assets/Anastasia_SS_SR.png" alt="">
+                        <h3 class="m-0">{{name}}</h3>
+                        <p>@{{username}}</p>
+                    </div>
+                    <div class="btn follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="user-desc">
+                    <p>{{desc}}</p>
+                </div>
+                <div class="user-data">
+                    <div><b>{{following}}</b> Following</div>
+                    <div><b>{{follower}}</b> Followers</div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
