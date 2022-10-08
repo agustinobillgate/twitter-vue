@@ -3,7 +3,7 @@ Vue.createApp({
         return {
             profiles: [
                 {
-                    username: 'marisahonkai', name: 'Honkai News Network', desc: 'Honkai Impact 3rd and Honkai Star Rail CN News, Translation and Guides', created: 'July 2010', following: 305, follower: 170
+                    username: 'marisahonkai', name: 'Honkai News Network', desc: 'Honkai Impact 3rd and Honkai Star Rail CN News, Translation and Guides', created: 'July 2019', following: 2181, follower: 170
                 }
             ]
         }
