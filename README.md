@@ -1,1 +1,1 @@
-Task VueJS COmponent Twitter Profile
+Task VueJS Component Twitter Profile
